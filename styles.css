@@ -3,73 +3,26 @@
 	through a two way mirror.
  */
 
-body{
+body,a,p{
 	background-color: black;
-	font-size: 12px;
+	font-size: 18px;
 	font-family: 'Cabin', regular; /* googlefont link located in head.html */
 	color: white;
+	margin:1%;
+
 
 }
 
-h1{
-	font-size: 24px;
-	font-family: 'Fjalla One', bold; /* googlefont link located in head.html */
-	text-align: center;
-	display:none; /* this is so JQuery can fade in Header text */
-
+.weather{
+	width:20%;
+	height:300px;
+	float:left;
+	display: block;
+	padding-left:50px;
 }
-
-h3{
-	font-family: 'Fjalla One', bold;
-	font-size: 18px;
-	margin-top: 5px;
-	margin-bottom:0px;
-}
-
-a{
-	color:white;
-
-}
-
-h5{
-	font-size: 14px;
-	margin:0;
-}
-p{
-
-	margin:0;
-}
-
-
 .weather img{
-	width:50%;
-	}
-
-
-.technews p{
-	margin-bottom: 2%;
+	width:150px;
 }
-.technews img{
-	float:left;
-	width:40%;
-	margin-right:2px;
-	margin-bottom: 2px;
-	clear:left;
-
-
-
-}
-.guardNews h5{
-	margin-bottom:3%;
-}
-.bbcNews img{
-	float:left;
-	width:17%;
-	margin-right:2px;
-	margin-bottom: 2px;
-	clear:left;
-
-}
-.bbcNews p{
-	margin-bottom: 8%;
+.temp{
+	font-size: 50px;
 }
