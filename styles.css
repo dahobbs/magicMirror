@@ -3,26 +3,33 @@
 	through a two way mirror.
  */
 
-body,a,p{
+body,p{
 	background-color: black;
-	font-size: 18px;
+	font-size: 12px;
 	font-family: 'Cabin', regular; /* googlefont link located in head.html */
 	color: white;
-	margin:1%;
+	margin-bottom: 5px
 
 
 }
 
 .weather{
-	width:20%;
-	height:300px;
+	width:30%;
+	height:250px;
 	float:left;
 	display: block;
-	padding-left:50px;
+	padding-top: 50px
+	
 }
 .weather img{
-	width:150px;
+	width:110px;
 }
 .temp{
-	font-size: 50px;
+	font-size: 30px;
 }
+.bbcNews{
+	float:left;
+	display: inline-block;
+	width:70%;
+}
+
