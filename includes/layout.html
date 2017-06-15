@@ -3,13 +3,20 @@
 		This page handles HTML layout using bootstrap for responsiveness.
 		This page also uses JQuery AJAX functions to demonstrate different ways of gathering JSON data
 -->
+
+	
+			
+	
 	<div class="weather">
 			<!-- Weather section, uses php functions to gather JSON data and place the data
 				 using array indexing e.g. $data['weather'][0]['description']
 			 -->
 			<?php echo'<img src="http://openweathermap.org/img/w/'.$data['weather'][0]['icon'].'.png">';?>
 			<?php echo' <p class="temp">'.$data['main']['temp'].' °C </p>';?>
+			<?php echo' <p id="time"></p>';?>
+			
 		</div>
+		
 
 
 
@@ -29,7 +36,7 @@
 				    success: function (data) {
 				    $('.bbcNews').empty();
 				    $('.bbcNews').append("<h3>BBC News</h3>");
-				    	for(i=0; i<6; i++){
+				    	for(i=0; i<5; i++){
 				 	$('.bbcNews').append("<p>"+data.articles[i].description+"</p>");
 
 				           };

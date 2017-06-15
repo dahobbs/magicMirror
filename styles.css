@@ -3,6 +3,7 @@
 	through a two way mirror.
  */
 
+
 body,p{
 	background-color: black;
 	font-size: 12px;
@@ -13,22 +14,25 @@ body,p{
 
 }
 
+
 .weather{
-	width:30%;
+	width:25%;
 	height:250px;
 	float:left;
 	display: block;
-	padding-top: 50px
 	
-}
+	}
+	
 .weather img{
 	width:110px;
 }
-.temp{
-	font-size: 30px;
+.temp,#time{
+	font-size: 25px;
+	margin-left: 15px;
+	margin-top:2px;
+	
 }
 .bbcNews{
-	float:left;
 	display: inline-block;
 	width:70%;
 }
